@@ -1,0 +1,6 @@
+question,df,LR_chi2,LR_p
+Add Absolute AI to reference,1,6.429391728719793,0.0112247013258186
+Add z_assoc asymmetry to reference,1,6.45592091642834,0.011058321412564
+Residual Absolute AI after z_assoc,1,3.146103679784801,0.0761084949571021
+Residual z_assoc after Absolute AI,1,3.1726328674933484,0.0748816436082469
+Joint 2-df contribution of both asymmetries,2,9.60202459621314,0.0082214203069484

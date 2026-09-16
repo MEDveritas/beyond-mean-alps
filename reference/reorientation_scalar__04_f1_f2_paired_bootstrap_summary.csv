@@ -1,0 +1,2 @@
+B_requested,B_successful,median_HR_f1,HR_f1_CI_low,HR_f1_CI_high,median_HR_f2,HR_f2_CI_low,HR_f2_CI_high,median_beta_difference_f2_minus_f1,beta_difference_CI_low,beta_difference_CI_high,same_positive_direction_fraction
+1000,1000,1.261060362001844,1.0787834007832138,1.4745225631085246,1.1845289919466853,0.9854738018187986,1.403264066632414,-0.060963909317589,-0.1852953356956007,0.0546719562060488,0.965

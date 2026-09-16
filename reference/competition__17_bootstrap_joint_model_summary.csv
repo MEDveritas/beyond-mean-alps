@@ -1,0 +1,3 @@
+marker,successful_replicates,median_HR,CI_low_HR,CI_high_HR,fraction_beta_positive,requested_replicates,failed_replicates
+Absolute ALPS asymmetry,300,1.1934629734641362,0.9679679349031302,1.429053960989809,0.9433333333333334,300,0
+z_assoc asymmetry,300,1.145707603225271,0.9477693628273248,1.3286370335048523,0.94,300,0

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this analysis code."
+type: software
+title: "Absolute DTI-ALPS asymmetry and Alzheimer’s disease conversion analysis code"
+version: 1.0.0
+date-released: 2026-09-15
+license: MIT
+authors:
+  - family-names: Choi
+    given-names: Jun Hyeok
+  - family-names: Kim
+    given-names: Jun-Hee
+  - family-names: Yoo
+    given-names: Roh-Eul
+  - family-names: Choi
+    given-names: Seung Hong
+abstract: "Analysis code accompanying Greater Absolute DTI-ALPS Asymmetry Is Associated with Higher Risk of Conversion to Alzheimer’s Disease."
+repository-code: "https://github.com/MEDveritas/beyond-mean-alps"

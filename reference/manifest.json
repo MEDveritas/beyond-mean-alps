@@ -1,0 +1,494 @@
+[
+  {
+    "result": "primary/04_primary_Cox_full_cohort.csv",
+    "reference": "primary__04_primary_Cox_full_cohort.csv",
+    "keys": [
+      "term"
+    ],
+    "numeric_columns": [
+      "coef",
+      "exp(coef)",
+      "se(coef)",
+      "coef lower 95%",
+      "coef upper 95%",
+      "exp(coef) lower 95%",
+      "exp(coef) upper 95%",
+      "cmp to",
+      "z",
+      "p",
+      "-log2(p)",
+      "n",
+      "events",
+      "absolute_AI_LR_chi2",
+      "absolute_AI_LR_p"
+    ],
+    "reference_sha256": "691b99a3fd0f19f13b8f734bdc2b1b2fc1ba6ca56ddcb274b2ffb1a612804a3f"
+  },
+  {
+    "result": "primary/05_primary_Cox_PH_test.csv",
+    "reference": "primary__05_primary_Cox_PH_test.csv",
+    "keys": [
+      "term"
+    ],
+    "numeric_columns": [
+      "test_statistic",
+      "p",
+      "-log2(p)"
+    ],
+    "reference_sha256": "0024133f65e603071a7529bdb5778b2db98ebe82b5e947a2d9a7e0688e93a139"
+  },
+  {
+    "result": "directional_outliers/03_left_right_signed_absolute_Cox.csv",
+    "reference": "directional_outliers__03_left_right_signed_absolute_Cox.csv",
+    "keys": [
+      "analysis",
+      "term"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "6c2d88c4d09dd58827520f0b536e7f8399941f68b14ac9a41a763d162f63d568"
+  },
+  {
+    "result": "directional_outliers/07_tensor_component_negative_controls.csv",
+    "reference": "directional_outliers__07_tensor_component_negative_controls.csv",
+    "keys": [
+      "analysis",
+      "term"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "13840daf5b932a5bd45dac2c46c1dc08abfa70dcd5920eea7f29c7f92e65a5b0"
+  },
+  {
+    "result": "directional_outliers/10_outlier_tail_exclusion_Cox.csv",
+    "reference": "directional_outliers__10_outlier_tail_exclusion_Cox.csv",
+    "keys": [
+      "analysis",
+      "term"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "7225f1e4f67588cf85cd0e87fb96ed7bf63f668a719ab701bcb5033f15799ce0"
+  },
+  {
+    "result": "directional_outliers/12_influence_sensitivity_Cox.csv",
+    "reference": "directional_outliers__12_influence_sensitivity_Cox.csv",
+    "keys": [
+      "analysis",
+      "term"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "9c74b5c1629ac98a06726257658f721ac5d8709b21c23cd032bdd3b846444b88"
+  },
+  {
+    "result": "structural/03_absALPS_structural_correlations.csv",
+    "reference": "structural__03_absALPS_structural_correlations.csv",
+    "keys": [
+      "structural_metric"
+    ],
+    "numeric_columns": [
+      "n",
+      "pearson_r",
+      "pearson_p",
+      "spearman_rho",
+      "spearman_p"
+    ],
+    "reference_sha256": "1bd84d3a62c038a348b450de3dd8911af62784727a0a308d7f6dbb63273a00b6"
+  },
+  {
+    "result": "structural/05_structural_asymmetry_Cox_ladder.csv",
+    "reference": "structural__05_structural_asymmetry_Cox_ladder.csv",
+    "keys": [
+      "model"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "beta",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "p",
+      "log_likelihood",
+      "c_index",
+      "penalizer",
+      "AbsoluteAI_beta_attenuation_pct_vs_S0"
+    ],
+    "reference_sha256": "efb4e6cddda08dfd138bc5913966b883c93c2af9a99e5e15f4876cdaf6a4a081"
+  },
+  {
+    "result": "structural/10_365day_structural_sensitivity.csv",
+    "reference": "structural__10_365day_structural_sensitivity.csv",
+    "keys": [
+      "model"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "beta",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "p",
+      "log_likelihood",
+      "c_index",
+      "penalizer",
+      "max_allowed_gap_days"
+    ],
+    "reference_sha256": "57c318da5bb1f1117221d774aa981478ab80d3f6fa5b5c3c8957e7f64d3c07dc"
+  },
+  {
+    "result": "technical_risk/04_technical_cox_model_comparison.csv",
+    "reference": "technical_risk__04_technical_cox_model_comparison.csv",
+    "keys": [
+      "model"
+    ],
+    "numeric_columns": [
+      "N",
+      "events",
+      "reference_HR",
+      "reference_CI_low",
+      "reference_CI_high",
+      "adjusted_HR",
+      "adjusted_CI_low",
+      "adjusted_CI_high",
+      "adjusted_p",
+      "reference_beta",
+      "adjusted_beta",
+      "abs_beta_attenuation_percent",
+      "LR_chi2_added_block",
+      "LR_df",
+      "LR_p_added_block"
+    ],
+    "reference_sha256": "097b58a7639bfc0da8caaac17a889da173dbc916a64e17548c80735c758e8b76"
+  },
+  {
+    "result": "technical_risk/05_motion_sensitivity_cox.csv",
+    "reference": "technical_risk__05_motion_sensitivity_cox.csv",
+    "keys": [
+      "model"
+    ],
+    "numeric_columns": [
+      "N",
+      "events",
+      "reference_HR",
+      "reference_CI_low",
+      "reference_CI_high",
+      "adjusted_HR",
+      "adjusted_CI_low",
+      "adjusted_CI_high",
+      "adjusted_p",
+      "reference_beta",
+      "adjusted_beta",
+      "abs_beta_attenuation_percent",
+      "LR_chi2_added_block",
+      "LR_df",
+      "dropped_nonvarying_covariates",
+      "LR_p_added_block"
+    ],
+    "reference_sha256": "cae31c42a81447a63ba98e2590cbaea13c57dc1b8792bd4db1f38e911f3a865a"
+  },
+  {
+    "result": "technical_risk/06_alternative_asymmetry_definitions.csv",
+    "reference": "technical_risk__06_alternative_asymmetry_definitions.csv",
+    "keys": [
+      "adjustment",
+      "definition"
+    ],
+    "numeric_columns": [
+      "N",
+      "events",
+      "HR_per_1SD",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "89f46e92c6bd864c7004e96d9d184109766e21e824d20fbbb8b4d878410e28cd"
+  },
+  {
+    "result": "technical_risk/10_adjusted_36_60_month_absolute_risk.csv",
+    "reference": "technical_risk__10_adjusted_36_60_month_absolute_risk.csv",
+    "keys": [
+      "contrast",
+      "time"
+    ],
+    "numeric_columns": [
+      "lower_asymmetry_z",
+      "lower_adjusted_risk",
+      "higher_asymmetry_z",
+      "higher_adjusted_risk",
+      "absolute_risk_difference",
+      "bootstrap_B_requested",
+      "bootstrap_B_successful",
+      "lower_risk_CI_low",
+      "lower_risk_CI_high",
+      "higher_risk_CI_low",
+      "higher_risk_CI_high",
+      "risk_difference_CI_low",
+      "risk_difference_CI_high",
+      "N",
+      "events",
+      "time_days"
+    ],
+    "reference_sha256": "c1a49b72a9ad81cc605901f34b2ed95e36fd1af5cfb213c2eadac3e495505b8e"
+  },
+  {
+    "result": "reorientation_scalar/02_f1_f2_reproducibility.csv",
+    "reference": "reorientation_scalar__02_f1_f2_reproducibility.csv",
+    "keys": [
+      "measure"
+    ],
+    "numeric_columns": [
+      "n",
+      "f1_mean",
+      "f2_mean",
+      "pearson_r",
+      "pearson_p",
+      "spearman_rho",
+      "spearman_p",
+      "ICC_A1",
+      "mean_bias_f2_minus_f1"
+    ],
+    "reference_sha256": "e310fa099f8e16aa0bc46ce8a867e4e155506a8dbed95057153623332d1ab6a0"
+  },
+  {
+    "result": "reorientation_scalar/03_f1_f2_same_specification_cox.csv",
+    "reference": "reorientation_scalar__03_f1_f2_same_specification_cox.csv",
+    "keys": [
+      "analysis"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR_per_1SD_abs_asym",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p",
+      "beta",
+      "SE"
+    ],
+    "reference_sha256": "d100300026af739a0a9458297c52d004eb4a012e1a69ebebe53c0e1d6000e6f7"
+  },
+  {
+    "result": "reorientation_scalar/04_f1_f2_paired_bootstrap_summary.csv",
+    "reference": "reorientation_scalar__04_f1_f2_paired_bootstrap_summary.csv",
+    "keys": [],
+    "numeric_columns": [
+      "B_requested",
+      "B_successful",
+      "median_HR_f1",
+      "HR_f1_CI_low",
+      "HR_f1_CI_high",
+      "median_HR_f2",
+      "HR_f2_CI_low",
+      "HR_f2_CI_high",
+      "median_beta_difference_f2_minus_f1",
+      "beta_difference_CI_low",
+      "beta_difference_CI_high",
+      "same_positive_direction_fraction"
+    ],
+    "reference_sha256": "9b9b5f6fbbcd9702606b2a84cca3260c758cace6888d5a277783ee800bfc0c6f"
+  },
+  {
+    "result": "reorientation_scalar/06_FA_MD_negative_control_cox.csv",
+    "reference": "reorientation_scalar__06_FA_MD_negative_control_cox.csv",
+    "keys": [
+      "scalar_asymmetry"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR_per_1SD",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "LR_chi2",
+      "LR_p",
+      "FDR_q_Wald",
+      "FDR_q_LR"
+    ],
+    "reference_sha256": "a7f09842d15b5fbd63226402d44b38023e7a2e4edb56aa5340e7bf1fbc47ac33"
+  },
+  {
+    "result": "competition/03_primary_competition_coefficients.csv",
+    "reference": "competition__03_primary_competition_coefficients.csv",
+    "keys": [
+      "model",
+      "term"
+    ],
+    "numeric_columns": [
+      "n",
+      "events",
+      "HR",
+      "CI_low",
+      "CI_high",
+      "Wald_p",
+      "coef",
+      "SE"
+    ],
+    "reference_sha256": "cb7050e718eb44e6afdc5216424e6b923d0f21bb7b175350df0c2a51c0a77e42"
+  },
+  {
+    "result": "competition/04_primary_nested_LR_tests.csv",
+    "reference": "competition__04_primary_nested_LR_tests.csv",
+    "keys": [
+      "question"
+    ],
+    "numeric_columns": [
+      "df",
+      "LR_chi2",
+      "LR_p"
+    ],
+    "reference_sha256": "aedf8ecc98572ae9f2271ee6da844600635f72bdd4d820f195536ad02ca9ae2d"
+  },
+  {
+    "result": "competition/05_coefficient_attenuation.csv",
+    "reference": "competition__05_coefficient_attenuation.csv",
+    "keys": [
+      "marker"
+    ],
+    "numeric_columns": [
+      "beta_single_marker_model",
+      "beta_joint_model",
+      "relative_beta_attenuation"
+    ],
+    "reference_sha256": "2e9c4994407e25dd7211be78b3acd96776cf50ed8a49079efefa73a2d5672da3"
+  },
+  {
+    "result": "competition/17_bootstrap_joint_model_summary.csv",
+    "reference": "competition__17_bootstrap_joint_model_summary.csv",
+    "keys": [
+      "marker"
+    ],
+    "numeric_columns": [
+      "successful_replicates",
+      "median_HR",
+      "CI_low_HR",
+      "CI_high_HR",
+      "fraction_beta_positive",
+      "requested_replicates",
+      "failed_replicates"
+    ],
+    "reference_sha256": "2139321f344891504f8131745ad87924757d946db73458c020b2b5f41f26ef4e"
+  },
+  {
+    "result": "spline/figure2b_spline_metadata.csv",
+    "reference": "spline__figure2b_spline_metadata.csv",
+    "keys": [],
+    "numeric_columns": [
+      "n",
+      "events",
+      "reference_raw_median",
+      "raw_mean",
+      "raw_sd",
+      "lr_overall",
+      "df_overall",
+      "p_overall",
+      "lr_nonlinear",
+      "df_nonlinear",
+      "p_nonlinear"
+    ],
+    "reference_sha256": "1eb60f006ea25f96ca7def047efbdfc47215a8ecd502899cce5da5530bc2a602"
+  },
+  {
+    "result": "spline/figure2b_spline_curve.csv",
+    "reference": "spline__figure2b_spline_curve.csv",
+    "keys": [],
+    "numeric_columns": [
+      "abs_asymmetry_raw",
+      "abs_asymmetry_sd",
+      "hazard_ratio",
+      "ci_lower",
+      "ci_upper"
+    ],
+    "reference_sha256": "ab14becc80f2651e91a9c1e4fbaa52d0172575c079f778e84ce9ffe67d51f352"
+  },
+  {
+    "result": "prediction/tables/03_oof_performance.csv",
+    "reference": "prediction__03_oof_performance.csv",
+    "keys": [
+      "model",
+      "block",
+      "subgroup",
+      "month",
+      "metric"
+    ],
+    "numeric_columns": [
+      "estimate",
+      "n"
+    ],
+    "reference_sha256": "4da215d44bee6ac19d2cc7b918a0e012fb7e2b42dc7ea82d4b7fabc505b8eae7"
+  },
+  {
+    "result": "prediction/tables/04_paired_deltas.csv",
+    "reference": "prediction__04_paired_deltas.csv",
+    "keys": [
+      "model",
+      "subgroup",
+      "month",
+      "metric"
+    ],
+    "numeric_columns": [
+      "estimate",
+      "ci_low",
+      "ci_high",
+      "p_boot_approx",
+      "n_boot_valid",
+      "p_adjusted"
+    ],
+    "reference_sha256": "e74c10fcb7319a514bb1ee6af737e6a617344cfcac32275f28112410e1841961"
+  },
+  {
+    "result": "prediction/tables/06_calibration_summary.csv",
+    "reference": "prediction__06_calibration_summary.csv",
+    "keys": [
+      "model",
+      "block",
+      "month"
+    ],
+    "numeric_columns": [
+      "valid_repeats",
+      "joint_intercept",
+      "slope",
+      "calibration_in_the_large"
+    ],
+    "reference_sha256": "23ee6ba7896535b07ca1bb1eff2539607ad923dad429e0966a856e6b4eb7bd1d"
+  }
+]
